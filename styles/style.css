@@ -229,7 +229,6 @@
   flex-direction: column;
   background-size: cover;
   padding: 48px 40px;
-  position: relative;
   height: 596px;
 }
 
@@ -292,6 +291,7 @@
   margin-right: 24px;
   margin-top: 120px;
   margin-bottom: 180px;
+  border: 1px solid black;
 }
 
 .about__column {
@@ -310,7 +310,6 @@
   grid-area: 1 / 1;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-left: 46px;
 }
 
@@ -359,6 +358,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
+  border: 1px solid black;
 }
 
 .address {
@@ -367,7 +367,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  display: flex;
   max-width: 240px;
   min-width: max-content;
   height: 98px;
