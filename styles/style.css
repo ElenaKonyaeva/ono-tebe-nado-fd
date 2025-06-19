@@ -16,7 +16,7 @@
   padding: 130px 50px;
   align-items: center;
   text-decoration: none;
-  gap: 13px; 
+  gap: 13px;
 }
 .header_menu-link {
   font-family: "Raleway", sans-serif;
@@ -27,16 +27,16 @@
   align-items: center;
   white-space: nowrap;
 }
-.header_menu-run {  
-  height: 6px;  
-  width: 6px;  
+.header_menu-run {
+  height: 6px;
+  width: 6px;
   border: 1px solid black;
-  background-color: white; 
-  border-radius: 50%;  
-  display: inline-block;  
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
   margin: 0;
   align-items: center;
-}  
+}
 
 .header_logo-black {
   width: 148px;
@@ -71,13 +71,13 @@
   margin-right: -53px;
   margin-top: 5px;
 }
-.header_contact_phone-and-email  {
+.header_contact_phone-and-email {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 .cover {
   position: relative;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   height: 757px;
   width: 1100px;
@@ -90,12 +90,12 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0,0,0,0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .cover-container {
   position: relative;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 .cover-title {
   position: relative;
@@ -113,7 +113,7 @@
 }
 .title-left {
   text-align: start;
-  padding-top: 25px ;
+  padding-top: 25px;
   padding-bottom: 15px;
 }
 
@@ -134,27 +134,27 @@
 }
 
 .description {
-   position: relative;
-   display: flex; 
-   width: 1000px;
-   height: 51px;
-   margin-top: 115px;
-   margin-left: 50px;
-   margin-right: 50px;
-   margin-bottom: 50px;
-   white-space: nowrap;
-   align-items: end;
-   z-index: 2;
-   font-family: "Raleway", sans-serif;
-   font-weight: 500;
-   font-size: 22px;
-   text-transform: uppercase;
-   color: #fff;
-   text-align: center;
-   vertical-align: middle;
+  position: relative;
+  display: flex;
+  width: 1000px;
+  height: 51px;
+  margin-top: 115px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  white-space: nowrap;
+  align-items: end;
+  z-index: 2;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.cover-text{
+.cover-text {
   display: flex;
   width: 744px;
   height: 51px;
@@ -172,7 +172,7 @@
   border: 2px solid white;
   background: transparent;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .lots {
@@ -183,7 +183,7 @@
   margin-bottom: 120px;
   margin-left: 24px;
   margin-right: 24px;
-  flex-direction:column;
+  flex-direction: column;
   min-height: 100%;
 }
 .lots-title {
@@ -205,18 +205,18 @@
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
-  gap: 25px; 
+  gap: 25px;
 }
 
 .lots-card-first {
   display: flex;
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
   width: 334px;
   height: 596px;
   flex-grow: 1;
   flex-basis: 334px;
   max-width: 100%;
-  flex: 1 0 334px; 
+  flex: 1 0 334px;
 }
 
 .card-content {
@@ -230,7 +230,7 @@
   background-size: cover;
   padding: 48px 40px;
   position: relative;
-  height: 596px; 
+  height: 596px;
 }
 
 .card-title {
@@ -250,13 +250,13 @@
   font-weight: 100;
   font-size: 20px;
   line-height: 120%;
-  color: #fff; 
+  color: #fff;
 }
 
 .lots-card-second {
   display: flex;
   flex: 1 0 334px;
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
   width: 334px;
   height: 596px;
   flex-grow: 1;
@@ -267,7 +267,7 @@
 .lots-card-third {
   display: flex;
   flex: 1 0 334px;
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
   width: 334px;
   height: 596px;
   flex-grow: 1;
@@ -279,8 +279,8 @@
   font-weight: 100;
   font-size: 20px;
   line-height: 120%;
-  color:black;
-  margin-left: 40px; 
+  color: black;
+  margin-left: 40px;
   margin-top: 7px;
   text-underline-offset: 4px;
 }
@@ -302,22 +302,22 @@
 }
 
 .about__logo {
-  height: 240px;  
-  width: 240px;  
-  background-color: black; 
+  height: 240px;
+  width: 240px;
+  background-color: black;
   border-radius: 50%;
   align-items: center;
   grid-area: 1 / 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 46px; 
+  margin-left: 46px;
 }
 
 .about__logo-image {
   grid-area: 1 / 1;
   width: 148px;
-  height: 114px;  
+  height: 114px;
 }
 
 .about_content {
@@ -327,14 +327,14 @@
   color: #000;
   display: flex;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
 }
 
 .about__title {
   grid-area: 1 / 2;
   font-size: 40px;
   padding-left: 10px;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .about__text {
@@ -377,7 +377,7 @@
   object-position: center;
   line-height: 1.4;
   list-style: none;
-  margin-left: 50px;   
+  margin-left: 50px;
 }
 
 .address_phone-and-email {
@@ -432,4 +432,4 @@
   display: block;
   width: 48px;
   height: 48px;
-} 
+}
