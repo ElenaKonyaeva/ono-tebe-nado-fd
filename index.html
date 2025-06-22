@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="styles/style.css"/>
     <link rel="stylesheet" href="fonts/fonts.css"/>
     <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
   </head>
   <body>
     <header class="header">
       <div class="header_menu">
-        <a class="header_menu-item">главная</a>
-        <span class="header_menu-run"></span>
-        <a href="#0" class="header_menu-link">посмотреть лоты</a>
-        <span class="header_menu-run"></span>
-        <a href="#0" class="header_menu-link">об аукционе</a>
+        <a href="#0" class="menu-item">главная</a>
+        <a class="header_menu-run"></a>
+        <a href="#0" class="menu-link">посмотреть лоты</a>
+        <a class="header_menu-run"></a>
+        <a href="#0" class="menu-link">об аукционе</a>
       </div>
       <div class="header_logo-black">
         <a href="/"><img src="./images/logo-black.svg" alt="логотип оно тебе надо черный"/></a>
       </div>
-      <nav class="header_contact">
+      <address class="header_contact">
         <ul class="header_contact_item">
          <li>
-           <a class="header_contact_phone-and-email" href="tel:+99995555555">
+           <a class="phone-and-email" href="tel:+99995555555">
              +9 999 555 5555</a
            >
          </li>
          <li>
-           <a class="header_contact_phone-and-email" href="mailto:info@sobaka.ge">
+           <a class="phone-and-email" href="mailto:info@sobaka.ge">
              info@sobaka.ge</a
            >
          </li>
@@ -40,16 +40,17 @@
            <a> 265, Амстердам</a>
          </li>
         </ul>
-      </nav>
+      </address>
     </header>
+   <main>
     <section class="cover">
       <div class="overlay"></div>
       <div class="cover-container"></div>
-      <div class="cover-title">
-        <h1 class="title-left">оно</h1>
-        <h1 class="title-center">тебе</h1>
-        <h1 class="title-right">надо</h1>
-      </div>
+      <h1 class="cover-title">
+        <span class="title-left">оно</span>
+        <span class="title-center">тебе</span>
+        <span class="title-right">надо</span>
+      </h1>
       <div class="description">
         <p class="cover-text">Аукцион вещей, в которые никто не верил</p>
         <p class="cover-button">сделать ставку</p>
@@ -59,8 +60,8 @@
     <section class="lots">
     <h2 class="lots-title">лоты</h2>
        <ul class="lots-card">
-        <li class="lots-card-first">
-          <a href="#0" class="card-content"></a>
+        <li class="lots-card-item">
+         <a href="#0" class="card-content">
           <article class="card-cover">
             <div class="overlay"></div>
             <h3 class="card-title">
@@ -71,9 +72,10 @@
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
           </article>
+         </a>
         </li>
-        <li class="lots-card-second">
-          <a href="#0" class="card-content"></a>
+        <li class="lots-card-item">
+         <a href="#0" class="card-content">
           <article class="card-cover">
             <div class="overlay"></div>
             <h3 class="card-title">
@@ -87,9 +89,10 @@
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
           </article>
+         </a>
         </li>
-        <li class="lots-card-third">
-          <a href="#0" class="card-content"></a>
+        <li class="lots-card-item">
+         <a href="#0" class="card-content">
           <article class="card-cover">
             <div class="overlay"></div>
             <h3 class="card-title">
@@ -102,6 +105,7 @@
               из революционных работ Кандинского?
             </p>
           </article>
+         </a>
         </li>
       </ul>
      <a href="#" class="card-more">посмотреть больше</a>
@@ -137,16 +141,17 @@
         </div>
       </div>
     </section>
-    <section class="footer">
+   </main>
+    <footer class="footer">
       <div class="footer-address">
         <ul class="address">
           <li>
-            <a class="address_phone-and-email" href="tel:+99995555555"
+            <a class="phone-and-email" href="tel:+99995555555"
               >+9 999 555 5555</a
             >
           </li>
           <li>
-            <a href="mailto:info@sobaka.ge" class="address_phone-and-email"
+            <a href="mailto:info@sobaka.ge" class="phone-and-email"
               >info@sobaka.ge</a
             >
           </li>
@@ -158,16 +163,16 @@
           </li>
         </ul>
       </div>
-      <div class="footer-nav">
+      <div class="nav">
         <ul class="footer-menu">
           <li>
-            <a class="footer-menu-main" href="#0">главная</a>
+            <a class="menu-item" href="#0">главная</a>
           </li>
           <li>
-            <a class="footer-menu-link" href="#0">посмотреть лоты</a>
+            <a class="menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#0" class="footer-menu-link">об аукционе</a>
+            <a href="#0" class="menu-link">об аукционе</a>
           </li>
         </ul>
       </div>
@@ -193,6 +198,6 @@
           </li>
         </ul>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
