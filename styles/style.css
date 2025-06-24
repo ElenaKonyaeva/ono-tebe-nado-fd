@@ -5,7 +5,6 @@
   height: auto;
   margin: 0 auto;
   align-items: center;
-
   padding-top: 92px; 
   padding-bottom: 96px;
 
@@ -22,6 +21,7 @@
   padding-left: 47px;
 
 }
+
 .header_menu {
   list-style-type: circle;
   margin: 0;
@@ -36,10 +36,12 @@
 
 .header_menu li {
   padding-left: 3px;
+
 }
 
 .header_menu li:first-child {
   list-style-type: none;
+  
 }
 
 .link {
@@ -50,9 +52,11 @@
   justify-content: center;
 
 }
+
 .link-active {
  text-decoration: underline;
  text-underline-offset: 4px; 
+
 }
 
 .header_logo-black {
@@ -219,6 +223,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .lots-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -237,8 +242,6 @@
   gap: 24px;
   justify-content: center;
 }
-
-
 
 .card-content {
   display: flex;
@@ -269,7 +272,9 @@
   text-transform: uppercase;
   text-decoration: underline;
   color: #fff;
+
 }
+
 .card-description {
   z-index: 2;
   position: relative;
@@ -289,12 +294,23 @@
   min-height: 596px;
   flex-grow: 1;
   flex-basis: 334px;
+
 }
-.lot-auction-film .card-cover { background-image: url('../images/card-lot-01.jpg'); }
 
-.lot-auction-book .card-cover { background-image: url('../images/card-lot-02.jpg'); }
+.lot-auction-film .card-cover { 
+  background-image: url('../images/card-lot-01.jpg');
 
-.lot-auction-art .card-cover { background-image: url('../images/card-lot-03.jpg'); }
+}
+
+.lot-auction-book .card-cover { 
+  background-image: url('../images/card-lot-02.jpg');
+
+}
+
+.lot-auction-art .card-cover { 
+  background-image: url('../images/card-lot-03.jpg');
+
+}
 
 .card-more {
   font-weight: 100;
@@ -415,7 +431,6 @@
 }
 
 .footer-menu {
-  
   font-size: 18px;
   list-style: none;
   justify-content: center;
@@ -439,11 +454,13 @@
   list-style: none;
   margin-right: 5px;
 }
+
 .social-link {
   display: block;
   width: 48px;
   height: 48px;
 }
+
 .social-icon {
   display: block;
   width: 48px;
